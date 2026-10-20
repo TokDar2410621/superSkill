@@ -8,51 +8,51 @@ Tu décris une idée à ton IA et elle fonce : elle code ou planifie avant d'avo
 
 ### Les skills
 
-**Tu les lances**
+#### Tu les lances
 
-- [grill-me](skills/grill-me/SKILL.md) : un interrogatoire sans relâche pour affûter un plan ou une décision.
+- [cuisine-moi](skills/cuisine-moi/SKILL.md) : ton IA te cuisine sans relâche pour affûter un plan ou une décision.
 
-**L'IA les lance (toi aussi)**
+#### L'IA les lance (toi aussi)
 
-- [grilling](skills/grilling/SKILL.md) : la méthode d'interrogatoire. Des rounds de questions à choix via l'outil de questions de ton agent, en texte quand il n'en a pas.
-- [stop-slop](skills/stop-slop/SKILL.md) : retire les tics d'écriture IA d'un texte.
+- [interrogatoire](skills/interrogatoire/SKILL.md) : la méthode. Des rounds de questions à choix via l'outil de questions de ton agent, en texte quand il n'en a pas.
+- [anti-blabla](skills/anti-blabla/SKILL.md) : retire les tics d'écriture IA d'un texte.
 
 ### Installer
 
 Choisis une seule méthode par agent, sinon chaque skill apparaît en double.
 
-**Claude Code**
+#### Claude Code
 
 ```bash
 claude plugin marketplace add TokDar2410621/superSkill
 claude plugin install superskill@superskill
 ```
 
-Tape ensuite `/superskill:grill-me` et décris ton plan.
+Tape ensuite `/superskill:cuisine-moi` et décris ton plan.
 
-**Codex**
+#### Codex
 
 ```bash
 codex plugin marketplace add TokDar2410621/superSkill
 codex plugin add superskill@superskill
 ```
 
-Codex affiche les menus en mode Plan seulement. Dans les autres modes, grilling pose ses questions en texte.
+Codex affiche les menus en mode Plan seulement. Dans les autres modes, interrogatoire pose ses questions en texte.
 
-**GitHub Copilot CLI**
+#### GitHub Copilot CLI
 
 ```bash
 copilot plugin marketplace add TokDar2410621/superSkill
 copilot plugin install superskill@superskill
 ```
 
-**Gemini CLI**
+#### Gemini CLI
 
 ```bash
 gemini skills install https://github.com/TokDar2410621/superSkill.git --path skills
 ```
 
-**Cursor, OpenCode, Windsurf, Amp et les autres**
+#### Cursor, OpenCode, Windsurf, Amp et les autres
 
 ```bash
 npx skills@latest add TokDar2410621/superSkill
@@ -62,8 +62,8 @@ Pour mettre à jour : `npx skills@latest update`.
 
 ### Crédits
 
-- grill-me et grilling sont adaptés de [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, Matt Pocock). Changements : menus de questions natifs de chaque agent, plafond de questions par round, version texte de secours, écriture stop-slop.
-- stop-slop vient de [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT, Hardik Pandya). Seul changement : un em-dash retiré d'un exemple, pour respecter la règle 6 du skill.
+- cuisine-moi et interrogatoire adaptent grill-me et grilling de [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, Matt Pocock). Changements : noms en français, menus de questions natifs de chaque agent, plafond de questions par round, version texte de secours, écriture anti-blabla.
+- anti-blabla est stop-slop de [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT, Hardik Pandya). Changements : le nom, et un em-dash retiré d'un exemple pour respecter la règle 6 du skill.
 
 Licence : [MIT](LICENSE).
 
@@ -73,51 +73,51 @@ You describe an idea and your AI charges ahead: it codes or plans before it unde
 
 ### Skills
 
-**You run these**
+#### You run these
 
-- [grill-me](skills/grill-me/SKILL.md): a relentless interview to sharpen a plan or design.
+- [cuisine-moi](skills/cuisine-moi/SKILL.md) ("grill me"): a relentless interview to sharpen a plan or design.
 
-**Your AI runs these (so can you)**
+#### Your AI runs these (so can you)
 
-- [grilling](skills/grilling/SKILL.md): the interview method. Rounds of multiple-choice questions through your agent's question tool, plain text when it has none.
-- [stop-slop](skills/stop-slop/SKILL.md): removes AI writing patterns from prose.
+- [interrogatoire](skills/interrogatoire/SKILL.md) ("interrogation"): the interview method. Rounds of multiple-choice questions through your agent's question tool, plain text when it has none.
+- [anti-blabla](skills/anti-blabla/SKILL.md) ("no fluff"): removes AI writing patterns from prose.
 
 ### Install
 
 Pick one route per agent, or every skill shows up twice.
 
-**Claude Code**
+#### Claude Code
 
 ```bash
 claude plugin marketplace add TokDar2410621/superSkill
 claude plugin install superskill@superskill
 ```
 
-Then type `/superskill:grill-me` and describe your plan.
+Then type `/superskill:cuisine-moi` and describe your plan.
 
-**Codex**
+#### Codex
 
 ```bash
 codex plugin marketplace add TokDar2410621/superSkill
 codex plugin add superskill@superskill
 ```
 
-Codex shows the menus in Plan mode only. In other modes, grilling asks in plain text.
+Codex shows the menus in Plan mode only. In other modes, interrogatoire asks in plain text.
 
-**GitHub Copilot CLI**
+#### GitHub Copilot CLI
 
 ```bash
 copilot plugin marketplace add TokDar2410621/superSkill
 copilot plugin install superskill@superskill
 ```
 
-**Gemini CLI**
+#### Gemini CLI
 
 ```bash
 gemini skills install https://github.com/TokDar2410621/superSkill.git --path skills
 ```
 
-**Cursor, OpenCode, Windsurf, Amp and the rest**
+#### Cursor, OpenCode, Windsurf, Amp and the rest
 
 ```bash
 npx skills@latest add TokDar2410621/superSkill
@@ -127,7 +127,7 @@ To update: `npx skills@latest update`.
 
 ### Credits
 
-- grill-me and grilling are adapted from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, Matt Pocock). Changes: each agent's native question menus, a per-round question cap, a plain-text fallback, stop-slop writing.
-- stop-slop comes from [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT, Hardik Pandya). One change: an em-dash removed from an example, to follow the skill's own rule 6.
+- cuisine-moi and interrogatoire adapt grill-me and grilling from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, Matt Pocock). Changes: French names, each agent's native question menus, a per-round question cap, a plain-text fallback, anti-blabla writing.
+- anti-blabla is stop-slop from [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT, Hardik Pandya). Changes: the name, and an em-dash removed from an example to follow the skill's own rule 6.
 
 License: [MIT](LICENSE).

@@ -1,5 +1,5 @@
 interface:
-  display_name: "Grill Me"
+  display_name: "Cuisine-moi"
   short_description: "Sharpen a plan through interview"
 policy:
   allow_implicit_invocation: false

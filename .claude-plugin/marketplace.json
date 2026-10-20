@@ -9,7 +9,7 @@
     {
       "name": "superskill",
       "source": "./",
-      "description": "Agent skills that make your AI interview you before it builds: grilling rounds as multiple-choice menus, plus stop-slop writing.",
+      "description": "Agent skills that make your AI interview you before it builds: interview rounds as multiple-choice menus, plus anti-blabla writing.",
       "category": "productivity",
       "keywords": [
         "skills",
