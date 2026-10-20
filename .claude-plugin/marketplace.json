@@ -1,0 +1,22 @@
+{
+  "name": "superskill",
+  "owner": {
+    "name": "Darius Tokam",
+    "url": "https://tokamdarius.ca"
+  },
+  "description": "Darius Tokam's agent skills, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "superskill",
+      "source": "./",
+      "description": "Agent skills that make your AI interview you before it builds: grilling rounds as multiple-choice menus, plus stop-slop writing.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "grilling",
+        "interview",
+        "planning"
+      ]
+    }
+  ]
+}

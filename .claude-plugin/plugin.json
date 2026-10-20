@@ -1,0 +1,23 @@
+{
+  "name": "superskill",
+  "version": "0.1.0",
+  "description": "Agent skills that make your AI interview you before it builds: grilling rounds as multiple-choice menus, plus stop-slop writing.",
+  "author": {
+    "name": "Darius Tokam",
+    "url": "https://tokamdarius.ca"
+  },
+  "repository": "https://github.com/TokDar2410621/superSkill",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "grilling",
+    "interview",
+    "planning",
+    "writing"
+  ],
+  "skills": [
+    "./skills/grill-me",
+    "./skills/grilling",
+    "./skills/stop-slop"
+  ]
+}
