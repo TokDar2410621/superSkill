@@ -1,14 +1,8 @@
 MIT License
 
 Copyright (c) 2026 Darius Tokam
-
-Portions of this repository are adapted from MIT-licensed work:
-
-- skills/cuisine-moi and skills/interrogatoire (from grill-me and grilling):
-  Copyright (c) 2026 Matt Pocock
-  (https://github.com/mattpocock/skills)
-- skills/anti-blabla (from stop-slop): Copyright (c) 2025 Hardik Pandya
-  (https://github.com/hardikpandya/stop-slop)
+Copyright (c) 2026 Matt Pocock
+Copyright (c) 2025 Hardik Pandya
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
