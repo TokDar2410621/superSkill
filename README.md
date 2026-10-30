@@ -15,6 +15,7 @@ Tu décris une idée à ton IA et elle fonce : elle code ou planifie avant d'avo
 #### L'IA les lance (toi aussi)
 
 - [interrogatoire](skills/interrogatoire/SKILL.md) : la méthode. Des rounds de questions à choix via l'outil de questions de ton agent, en texte quand il n'en a pas.
+- [souffleur](skills/souffleur/SKILL.md) : transforme ta demande de code en prompt solide, à partir de la bibliothèque officielle de prompts Claude Code et de ses six patterns.
 - [anti-blabla](skills/anti-blabla/SKILL.md) : retire les tics d'écriture IA d'un texte.
 
 ### Installer
@@ -64,6 +65,7 @@ Pour mettre à jour : `npx skills@latest update`.
 
 - cuisine-moi et interrogatoire adaptent grill-me et grilling de [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, Matt Pocock). Changements : noms en français, menus de questions natifs de chaque agent, plafond de questions par round, version texte de secours, écriture anti-blabla.
 - anti-blabla est stop-slop de [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT, Hardik Pandya). Changements : le nom, et un em-dash retiré d'un exemple pour respecter la règle 6 du skill.
+- souffleur s'appuie sur la [bibliothèque de prompts Claude Code](https://code.claude.com/docs/en/prompt-library) d'Anthropic. Le skill en paraphrase la structure et renvoie à la page pour le texte exact des prompts.
 
 Licence : [MIT](LICENSE).
 
@@ -80,6 +82,7 @@ You describe an idea and your AI charges ahead: it codes or plans before it unde
 #### Your AI runs these (so can you)
 
 - [interrogatoire](skills/interrogatoire/SKILL.md) ("interrogation"): the interview method. Rounds of multiple-choice questions through your agent's question tool, plain text when it has none.
+- [souffleur](skills/souffleur/SKILL.md) ("prompter"): turns a coding request into a strong agent prompt, using Anthropic's Claude Code prompt library and its six patterns.
 - [anti-blabla](skills/anti-blabla/SKILL.md) ("no fluff"): removes AI writing patterns from prose.
 
 ### Install
@@ -129,5 +132,6 @@ To update: `npx skills@latest update`.
 
 - cuisine-moi and interrogatoire adapt grill-me and grilling from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, Matt Pocock). Changes: French names, each agent's native question menus, a per-round question cap, a plain-text fallback, anti-blabla writing.
 - anti-blabla is stop-slop from [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT, Hardik Pandya). Changes: the name, and an em-dash removed from an example to follow the skill's own rule 6.
+- souffleur builds on Anthropic's [Claude Code prompt library](https://code.claude.com/docs/en/prompt-library). The skill paraphrases its structure and points to the page for the exact prompt text.
 
 License: [MIT](LICENSE).

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Souffleur"
+  short_description: "Shape a coding request into a strong agent prompt"

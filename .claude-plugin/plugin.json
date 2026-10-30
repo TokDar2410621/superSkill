@@ -1,7 +1,7 @@
 {
   "name": "superskill",
-  "version": "0.2.0",
-  "description": "Agent skills that make your AI interview you before it builds: interview rounds as multiple-choice menus, plus anti-blabla writing.",
+  "version": "0.3.0",
+  "description": "Agent skills that make your AI interview you before it builds: interview rounds as multiple-choice menus, coding prompts shaped from Anthropic's Claude Code prompt library, plus anti-blabla writing.",
   "author": {
     "name": "Darius Tokam",
     "url": "https://tokamdarius.ca"
@@ -13,11 +13,13 @@
     "grilling",
     "interview",
     "planning",
+    "prompts",
     "writing"
   ],
   "skills": [
     "./skills/cuisine-moi",
     "./skills/interrogatoire",
+    "./skills/souffleur",
     "./skills/anti-blabla"
   ]
 }
